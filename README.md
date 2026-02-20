@@ -20,13 +20,16 @@ A Solidity smart contract for gaming stakes with multiplayer support, deployed o
 | \placeStake\ | Place a stake for solo game |
 | \createMultiplayerGame\ | Create and join multiplayer game |
 | \joinMultiplayerGame\ | Join existing multiplayer game |
-| \efundStake\ | Claim refund after timeout |
+efundStake\ | Claim refund after timeout |
+| \refundStake\ | Claim refund after timeout |
 
 ### Admin Functions
 | Function | Description |
 |----------|-------------|
-| \esolveGame\ | Resolve solo game outcome |
-| \esolveMultiplayerGame\ | Resolve multiplayer with winner |
+esolveGame\ | Resolve solo game outcome |
+esolveMultiplayerGame\ | Resolve multiplayer with winner |
+| \resolveGame\ | Resolve solo game outcome |
+| \resolveMultiplayerGame\ | Resolve multiplayer with winner |
 | \withdrawFees\ | Withdraw accumulated fees |
 | \setFeeBps\ | Update fee percentage |
 | \pause/unpause\ | Emergency pause |
